@@ -219,5 +219,25 @@ a {
   }
 
   /***/
+/**oyun*/
+
+.oyun-nav{
+  background-image: url('/static/img/header_bg.svg');
+}
+.oyun.card{
+  border: 1px solid orangered;
+}
+footer, section, .oyun-footer{
+  background-image: url('/static/img/header_bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer, section, .oyun-footer-2{
+  background-image: url('/static/img/bgDarkBlue.svg');
+}
+.oyun {
+  background: rgb(255, 198, 9);
+  background: linear-gradient(270deg, #ffc609 0%, #ff8400 100%);
+}
 
   
