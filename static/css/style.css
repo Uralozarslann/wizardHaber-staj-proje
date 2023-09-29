@@ -218,6 +218,29 @@ a {
     transition-timing-function: ease-out; 
   }
 
+.tradingview-widget-container{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+
+#chartdiv {
+	width	: 100%;
+	height	: 500px;
+}
+#chartdiv .amcharts-map-area {
+  opacity: 1;
+  filter: url(#blur);
+}
+#chartdiv:hover .amcharts-map-area:hover {
+  opacity: 1;
+  filter: none;
+}
+
+.dunya-navbar{
+  background-image: url(/static/img/istockphoto-1327522709-612x612.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
   /***/
 
   
