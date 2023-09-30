@@ -269,4 +269,33 @@ footer, section, .oyun-footer-2{
   border: 2px solid black;
 }
 
+.card-magazin{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/* Teknoloji sayfası css */
+.marquee{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+nav{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.container {
+    max-width: 1020px !important;
+}
+
+.teknoloji-card img{
+  background-size: cover;
+}
+
+
+.teknoloji-nav{
+  background-image: url(/static/img/blog-20221013044313-90.jpg);
+}
+
+.arka-plan{
+  background-image: url(/static/img/blog-20221013044313-90.jpg);
+
+}
   
