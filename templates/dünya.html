@@ -16,9 +16,10 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="/static/img/spor-removebg-preview.png">
   <!-- CSS -->
   <link rel="stylesheet" href="/static/css/style.css">
-  <title>Wizard Haber | Son Dakika, Spor, Magazin ve Daha Fazlası</title>
+  <title>Wizard Haber | Dünya</title>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
   <nav class="dunya-navbar navbar navbar-expand-lg navbar-dark text-white px-0 py-3 sticky-top" style="background-color: rgb(11, 11, 92);">
     <div class="container-xl">
       <!-- Logo -->
-      <a class="navbar-brand d-flex align-items-center" href="#">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
         <img src="/static/img/spor-removebg-preview.png" class="h-10" alt="...">
         <h4 class="text-white">Wizard <span class="bg-black text-white p-2 rounded-5">HABER</span></h4>
       </a>
@@ -46,21 +47,21 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <!-- Nav -->
         <div class="navbar-nav mx-lg-auto d-flex align-items-center">
-          <a class="nav-item nav-link active p-4" href="#" aria-current="page" style="background-color: rgb(0, 0, 0);">SON DAKİKA</a>
-          <a class="nav-item nav-link" href="#">Spor</a>
-          <a class="nav-item nav-link" href="#">Ekonomi</a>
-          <a class="nav-item nav-link" href="#">Magazin</a>
-          <a class="nav-item nav-link" href="#">Dünya</a>
-          <a class="nav-item nav-link" href="#">Teknoloji</a>
-          <a class="nav-item nav-link" href="#">Oyun</a>
+          <a class="nav-item nav-link active p-4" href="sondakika.html" aria-current="page" style="background-color: rgb(0, 0, 0);">SON DAKİKA</a>
+          <a class="nav-item nav-link" href="spor.html">Spor</a>
+          <a class="nav-item nav-link" href="ekonomi.html">Ekonomi</a>
+          <a class="nav-item nav-link" href="magazin.html">Magazin</a>
+          <a class="nav-item nav-link" href="dünya.html">Dünya</a>
+          <a class="nav-item nav-link" href="teknoloji.html">Teknoloji</a>
+          <a class="nav-item nav-link" href="oyun.html">Oyun</a>
         </div>
         <!-- Right navigation -->
         <div class="navbar-nav text-white ms-lg-4">
-          <a class="nav-item nav-link" href="#">Giriş Yap</a>
+          <a class="nav-item nav-link" href="girisyap.html">Giriş Yap</a>
         </div>
         <!-- Action -->
         <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
-          <a href="#" class="btn btn-outline-light w-full w-lg-auto">
+          <a href="kayitol.html" class="btn btn-outline-light w-full w-lg-auto">
             Kayıt Ol
           </a>
         </div>
@@ -98,21 +99,43 @@
 
   <!-- Carousel Start -->
   <div class="container mt-3">
+    <h1>DÜNYA HABERLERİ</h1>
     <div class="row g-4">
-      <div class="col-12">
-        <h1 style="text-align: center;">Dünya Haritası</h1>
-        <script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
-<script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
-<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/black.js"></script>
-<div id="chartdiv"></div>							
+      <div class="col-md-8">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/static/img/muharrem-sarikaya-ile-yeni-bakislar.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/static/img/new-mehmet-acar-ile-sinema.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/static/img/new-oray-egin-ile-yasam-mekan.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
-      <!-- altın piyasa widget -->
-      <div class="col-md-4 col-sm-12 d-flex flex-column align-items-center">
-        
+      <div class="col-md-4">
+        <div>
+          <video controls autoplay loop>
+            <source src="/static/img/Adsz_tasarm_2.mp4">
+          </video>
+        </div>
       </div>
     </div>
-</div>
-<!-- altın piyasa end  -->
+  </div>
+  <!-- Carousel End -->
 
 
   <!-- Carousel End -->
@@ -409,7 +432,7 @@
 
 </footer>
   <!-- Footer End -->
-
+  <button onclick="topFunction()" id="myBtn" style="font-size: 15px;"><i class="fa-solid fa-arrow-up fa-lg" style="color: #ffffff;"></i> Başa Dön!</button>
 
 
   
