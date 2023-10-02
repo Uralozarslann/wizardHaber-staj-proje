@@ -249,12 +249,12 @@ a {
 .oyun.card{
   border: 1px solid orangered;
 }
-footer, section, .oyun-footer{
+.oyun-footer{
   background-image: url('/static/img/header_bg.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
-footer, section, .oyun-footer-2{
+.oyun-footer-2{
   background-image: url('/static/img/bgDarkBlue.svg');
 }
 .oyun {
@@ -299,3 +299,37 @@ nav{
 
 }
   
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
+  border: none;
+  font-size: 18px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+#myBtn:hover {
+  background-color: #353535;
+}
